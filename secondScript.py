@@ -1,0 +1,34 @@
+import requests
+from bs4 import BeautifulSoup
+
+print("Starting the script...")
+
+url ='https://news.ycombinator.com/'
+print(f"fetching data from: {url}")
+
+response = requests.get(url)
+print(f"Received response with status code: {response.status_code}")
+
+
+if response.status_code == 200:
+    soup = BeautifulSoup(response.text, 'html.parser')
+    print("Successfully parsed the HTML.")
+
+    #Find all <a> tags and print their href attrbutes
+    links = soup.find_all('a')
+    print(f"Found {len(links)} links.")
+
+
+    for index, link in enumerate(links, start=1):
+        href = link.get('href')
+        
+        #Check if the link is an external link (starts with 'http' or 'https')
+        if href and (href.startswith('http://') or href.startswith('https://')):
+            title = link.text.strip()
+
+            if title:
+                print(f"{index}. {title} - {href}")
+            else:
+                print(f"{index}. [No Title Found] - {href}")
+else:
+    print(f"Failed to retrieve the page. Status code: {response.status_code}")
