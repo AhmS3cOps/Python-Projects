@@ -180,3 +180,6 @@ def main():
 
     # How to run
     # sudo streamlit run dashboard.py
+
+    if __name__ == "__main__":
+        main()
