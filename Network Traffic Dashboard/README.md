@@ -105,20 +105,20 @@ http://localhost:8501/
 ### Dashboard Startup
 ![Streamlit Start](image/1.png)
 
+
 ### Generating Traffic (Ping Test)
 ![Ping Test](image/2.png)
 
 ### Nmap Scan Simulation
-![Nmap Scan](image/3.png)
+![Nmap Scan](image/tr1.png)
 
 ### Proxychains Test
-![Proxychains](image/4.png)
+![Proxychains](image/tr2.png)
 
 ### Dashboard Info
 [Protocol Distribution](image/tr3.jpg)
 
 [Data Vizualization](image/tr4.jpg)
-
 
 [Most Recent Packets](image/tn.png)
 
