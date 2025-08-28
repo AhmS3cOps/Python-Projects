@@ -176,3 +176,7 @@ def main():
     # Auto refresh
     time.sleep(2)
     st.rerun()
+
+
+    # How to run
+    # sudo streamlit run dashboard.py
