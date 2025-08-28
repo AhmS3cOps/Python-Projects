@@ -45,10 +45,10 @@ webscraper/
 ├── firstScript.py        # Extracts internal Hacker News links
 ├── secondScript.py       # Extracts external article links
 ├── results/              # Screenshots of scraper results
-│   ├── 1.jpg
-│   ├── 2.jpg
-│   ├── 3.jpg
-│   └── 4.jpg
+│   ├── 1.jpg             # Output of firstScript.py
+│   ├── 2.jpg             # Hacker News site + DevTools view (for first script)
+│   ├── 3.jpg             # Output of secondScript.py
+│   └── 4.jpg             # Hacker News site + DevTools view (for second script)
 └── README.md             # Documentation
 ```
 
