@@ -116,11 +116,11 @@ http://localhost:8501/
 ![Proxychains](image/tr2.png)
 
 ### Dashboard Info
-[Protocol Distribution](image/tr3.jpg)
+![Protocol Distribution](image/tr3.jpg)
 
-[Data Vizualization](image/tr4.jpg)
+![Data Vizualization](image/tr4.jpg)
 
-[Most Recent Packets](image/tn.png)
+![Most Recent Packets](image/tn.png)
 
 ---
 
