@@ -34,7 +34,9 @@ Each project is documented with its own dedicated README file.
   - Displays protocol distribution, packet rates, and top source IPs using **Plotly**.  
   - Includes interactive charts, live metrics, and recent packet logs.  
 - **Output**: Interactive dashboard + screenshots of traffic scenarios (ping, nmap, proxychains).  
-- **Docs**: See the [Traffic Dashboard README](Network Traffic Dashboard/README.md).  
+- **Docs**: See the [Traffic Dashboard README](Network%20Traffic%20Dashboard/README.md).  
+
+---
 
 ### 2. Hacker News Web Scraper
 - **Folder**: `/webscraper`  
@@ -59,8 +61,6 @@ Each project is documented with its own dedicated README file.
 
 ---
 
-
----
 
 ## **Getting Started**
 1. Clone the repository:
