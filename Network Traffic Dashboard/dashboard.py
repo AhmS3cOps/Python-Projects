@@ -30,12 +30,14 @@ class PacketProcessor:
         self.protocol_map = {
             1: 'ICMP',
             6: 'TCP',
-            17: 'UDP'
+            17: 'UDP',
+            88: 'EIGRP',
+            89: 'OSPF'
         }
         self.packet_data = []
         self.start_time = datetime.now()
         self.packet_count = 0
-        self.lock = threading.Lock()
+        self.lock = threading.Lock()  # to prevent race conditions
 
     def get_protocol_name(self, protocol_num: int) -> str:
         """Convert protocol number to name"""
